@@ -1,9 +1,16 @@
 #include <iostream>
 #include <string>
+using namespace std;
 
 int main() {
-    // Create your 'Your Name' program here.
-    // Your program should ask the user for their name and then output
-    // "Your name is " followed by the user's name.
-    
+    string name;
+
+    // Ask user for their name
+    cout << "Enter your name: ";
+    getline(cin, name);
+
+    // Output the result
+    cout << "Your name is " << name << endl;
+
+    return 0;
 }
