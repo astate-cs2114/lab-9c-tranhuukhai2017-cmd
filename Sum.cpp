@@ -1,8 +1,21 @@
 #include <iostream>
+using namespace std;
 
 int main() {
-    // Create your Sum program here.
-    // Your program should ask the user to enter 2 integer numbers, and then
-    // output the sum of those 2 numbers.
-    
+    int num1, num2, sum;
+
+    // Ask user for input
+    cout << "Enter first integer: ";
+    cin >> num1;
+
+    cout << "Enter second integer: ";
+    cin >> num2;
+
+    // Calculate sum
+    sum = num1 + num2;
+
+    // Output result
+    cout << "The sum is: " << sum << endl;
+
+    return 0;
 }
